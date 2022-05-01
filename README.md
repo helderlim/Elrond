@@ -24,12 +24,12 @@ A finalidade principal é a apresentação FieldHack da empresa Field Control, n
 
 ## Tecnologias
 
-- *[ReactJS]('https://pt-br.reactjs.org/')*
-- *[Axios]('https://axios-http.com/ptbr/docs/intro')*
-- *[Express]('https://expressjs.com/pt-br/api.html')*
-- *[Jest]('https://jestjs.io/pt-BR/')*
-- *[MongoDB]('https://www.mongodb.com/pt-br')*
-- *[Mongoose]('https://mongoosejs.com/')*
+- *[ReactJS](https://pt-br.reactjs.org/)*
+- *[Axios](https://axios-http.com/ptbr/docs/intro)*
+- *[Express](https://expressjs.com/pt-br/api.html)*
+- *[Jest](https://jestjs.io/pt-BR/)*
+- *[MongoDB](https://www.mongodb.com/pt-br)*
+- *[Mongoose](https://mongoosejs.com/)*
 
 ## Como rodar o projeto
 
