@@ -24,12 +24,12 @@ A finalidade principal é a apresentação FieldHack da empresa Field Control, n
 
 ## Tecnologias
 
-- ReactJS
-- Axios
-- Express
-- Jest
-- MongoDB
-- Mongoose
+- *[ReactJS]('https://pt-br.reactjs.org/')*
+- *[Axios]('https://axios-http.com/ptbr/docs/intro')*
+- *[Express]('https://expressjs.com/pt-br/api.html')*
+- *[Jest]('https://jestjs.io/pt-BR/')*
+- *[MongoDB]('https://www.mongodb.com/pt-br')*
+- *[Mongoose]('https://mongoosejs.com/')*
 
 ## Como rodar o projeto
 
@@ -89,7 +89,7 @@ $ npm test
 
 Esse conceito é muito mais comum do que parece , basicamente toda a web é baseada no protocolo HTTP (Hypertext Trasnfer Protocol) ou HTTPS (Hypertext Transfer Protocol Secure), basta acessar aquela rede social favorita ou plataforma de streaming. 
 
-![add-image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2be4e6b-84db-4175-b817-a89ce7360298/Untitled.png)
+![HTTP IMAGE](https://user-images.githubusercontent.com/54562655/166166343-ac6e8306-4c65-4a85-8e8d-13615e0a0b10.png)
 
 Para conhece-la melhor note que em seu navegador há um cadeado antes da barra de navegação, esse cara esta te informando que esse portal é seguro. Você deve se perguntar - Porque em outras paginas o navegador informa como não seguro? - Por conta daquele portal não possuir um cara chamado SSL, que é um certificado de segurança informando que aquele acesso esta criptografado. Por isso que existe o HTTPs, uma implementação do protocolo HTTP com criptografia na comunicação web. 
 
@@ -137,7 +137,8 @@ Basta acessar a documentação e seguir os passos.
 
 Como já dito antes uma API serve como camada entre o client e o server. 
 
-![add-image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f06b6cc0-0c01-43e5-8969-92c8c394209d/Untitled.png)
+![REST API IMAGE](https://user-images.githubusercontent.com/54562655/166166377-b7102623-64a7-44d9-8418-862fba169d07.png)
+
 
 Temos algumas características sobre REST API. Toda a comunicação é realizada por endpoints, que são rotas ou path que utilizando o método HTTP realizam uma tarefa na API.
 
