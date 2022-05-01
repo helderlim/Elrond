@@ -22,12 +22,19 @@ exports.createPost = (req, res, next) => {
     error.statusCode = 422
     throw error;
   }
+  if (!req.file) {
+    const error = new Error('No image provided. ')
+    error.statusCode = 422
+    throw error;
+  }
+
+  const imageUrl = req.file.path;
   const title = req.body.title;
   const content = req.body.content;
   const post = new Post({
     title: title,
     content: content,
-    imageUrl: 'https://images.unsplash.com/photo-1651243960650-e01bb3102ec9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    imageUrl: imageUrl,
     creator: { name: 'helder lima' },
   });
   post.save()
